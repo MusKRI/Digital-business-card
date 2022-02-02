@@ -1,0 +1,270 @@
+/* Buttons */
+.white__button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  width: 115px;
+  border: 1px solid #d1d5db;
+  background-color: #fff;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  color: black;
+  font-weight: 500;
+  transition: all 0.4s ease;
+}
+
+.white__button:hover {
+  background-color: hsla(0, 0%, 100%, 0.9);
+  color: hsla(0, 0%, 100%, 0.5);
+}
+
+.light-theme .white__button:hover {
+  background-color: hsla(0, 0%, 100%, 0.4);
+  border: 1px solid hsl(212, 72%, 50%);
+}
+
+.white__button i {
+  color: #1e1f26;
+}
+
+.white__button span {
+  color: #374151;
+}
+
+.blue__button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  width: 115px;
+  background: hsl(212, 72%, 60%);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 500;
+  transition: all 0.4s ease;
+}
+
+.blue__button:hover {
+  background-color: hsl(212, 72%, 50%);
+}
+
+/* Card styling */
+
+.flex {
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.digital-business-cards {
+  background-color: #1c1c1c;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 557px);
+  grid-auto-rows: 868px;
+  gap: 49px;
+  place-content: center;
+  padding: 20px;
+}
+
+.card {
+  width: 550px;
+  background-color: #23252c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .card__profile {
+  width: 317px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card > * {
+  background: #1a1b21;
+  width: 317px;
+  border-radius: 10px;
+}
+
+.card.light-theme > * {
+  background-color: #f5f5f5;
+}
+
+.light-theme h2 {
+  color: #2b283a;
+}
+
+.card h4 {
+  font-size: 12.8px;
+  color: #f3bf99;
+  margin-bottom: 13px;
+}
+
+.card.light-theme h4 {
+  color: #f47d27;
+}
+
+.card p a {
+  color: #f5f5f5;
+}
+
+.card.light-theme p a {
+  color: #4a4e74;
+}
+
+.about {
+  color: #dcdcdc;
+}
+
+.about h2 {
+  font-weight: 700;
+}
+
+.about p {
+  font-size: 12.24px;
+}
+
+.light-theme .about p {
+  color: #4a4e74;
+}
+
+.footer {
+  background-color: #161619;
+  border-radius: 0px 0px 10px 10px;
+  padding: 17px 71px;
+}
+
+.light-theme .footer {
+  background: #d5d4d8;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.footer-icons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-icons i {
+  font-size: 28px;
+  background-color: hsl(254, 6%, 48%);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.light-theme .footer-icons i {
+  background-color: #918e9b;
+}
+
+/* for Card1 */
+.c1__myself {
+  padding: 25px 33px;
+}
+
+.c1__myself .c1__Name {
+  font-size: 25px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.c1__myself p {
+  font-size: 10.24px;
+  margin-bottom: 1rem;
+}
+
+.c1__buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 33px;
+}
+
+/* for Card 2 */
+.c2__myself {
+  padding: 25px 33px;
+}
+
+.c2__myself .c2__Name {
+  font-size: 25px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.c2__myself p {
+  font-size: 10.24px;
+  margin-bottom: 1rem;
+}
+
+.c2__buttons {
+  display: flex;
+  width: 100%;
+  margin-bottom: 33px;
+}
+
+.c2__buttons .white__button {
+  flex: 1;
+  justify-content: center;
+}
+
+.c2__buttons .white__button span {
+  margin-left: 8px;
+}
+
+/* For Card 3 */
+
+.c3__myself {
+  padding: 25px 33px;
+}
+
+.c3__myself .c3__Name {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.c3__myself p {
+  font-size: 10.24px;
+  margin-bottom: 1rem;
+}
+
+.c3__buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 33px;
+}
+
+/* For Card 4 */
+
+.c4__myself {
+  padding: 25px 33px;
+}
+
+.c4__myself .c4__Name {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.c4__myself p {
+  font-size: 10.24px;
+  margin-bottom: 1rem;
+}
+
+.c4__buttons {
+  display: flex;
+  width: 100%;
+  margin-bottom: 33px;
+}
+
+.c4__buttons .white__button {
+  flex: 1;
+  justify-content: center;
+}
+
+.c4__buttons .white__button span {
+  margin-left: 8px;
+}
